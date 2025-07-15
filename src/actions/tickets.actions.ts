@@ -1,6 +1,6 @@
 "use server";
 
-import * as Sentry from "@sentry/nextjs";
+// import * as Sentry from "@sentry/nextjs";
 import {prisma} from "@/db/prisma"
 import { revalidatePath } from "next/cache";
 import { logEvent } from "@/utils/sentry";
